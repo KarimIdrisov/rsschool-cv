@@ -63,6 +63,7 @@ export default function linearSuperposition(time, models, samples, fd, first, ar
 * Projects
   * [F1 Statistic](https://github.com/KarimIdrisov/f1statistic) - a site with statistics according to formula 1. The site is written on React JS and uses the F1 API to get data. 
   * [CGP](https://github.com/KarimIdrisov/cgp) – site for signal analysis. Frontend on React, backend on Node JS.
+  
 ## Education
 
 * 2019–currently – Far Eastern Federal University. Specialty: "Applied Mathematics and Computer Science"
