@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <title>Karim Idrisov - Resume</title>
+</head>
+
+<body>
+
+   <main class="resume">
+      <div class="container">
+
+         <header>
+            <h1 class="resume__title title">
+               Junior Frontend Developer
+            </h1>
+
+            <h2 class="resume__subtitle title">
+               Karim Idrisov
+            </h2>
+
+            <img class="resume__photo" width="213" height="300" src="pictures/photo.jpeg" alt="My photo">
+         </header>
+
+         <section>
+
+            <h2 class="title">
+               My contacts
+            </h2>
+
+            <p>
+               <strong>Telephone</strong> - 89502858568
+            </p>
+
+            <p>
+               <strong>Email</strong> - <a href="mailto:karim.idrisow2016@gmail.com">karim.idrisow2016@gmail.com</a>
+            </p>
+
+            <p>
+               <strong>GitHub</strong> - <a href="https://github.com/KarimIdrisov">https://github.com/KarimIdrisov</a>
+            </p>
+         </section>
+
+         <article>
+            <h2 class="title">
+               About me
+            </h2>
+
+            <p>
+               My teaching goal is to make my family happy. I was fascinated by the computer since childhood, but I
+               could not use it correctly, and spent a lot of time playing games. Now I want to work and develop in the
+               direction of frontend development.
+            </p>
+
+            <p>
+               I am currently studying at the Far Eastern Federal University for the 3rd year. During my studies, many
+               projects were completed. Also, courses such as web programming and computer graphic were taken.
+            </p>
+         </article>
+
+         <section>
+            <h2 class="title">
+               Skills
+            </h2>
+
+            <ul>
+               <li>JavaScript, Python, TypeScript, SQL</li>
+               <li>HTML, CSS, SASS/SCSS, BEM</li>
+               <li>ReactJS, Vue, Node JS</li>
+               <li>Material UI, Chart JS, Victory, Highcharts</li>
+               <li>Git, GitHub</li>
+            </ul>
+         </section>
+
+         <section class="code">
+            <h2 class="title">
+               Code Example
+            </h2>
+
+            <pre>
+            <code>
+               
+// Count linear superposition of two signals
+export default function linearSuperposition(time, models, samples, fd, first, args, notObject = false) {
+   const dataTmp = []
+   const res = []
+    
+   for (let i = 0; i &lt; samples; i++) {
+      res.push(0)
+   }
+    
+   for (let i = 0; i &lt; args.split(";").length; i++) {
+      for (let j = 0; j  &lt; samples; j++) {
+         res[j] += +models[i][j] * +args.split(';')[i]
+      }
+   }
+
+   if (notObject) {
+      for (let i = 0; i &lt; samples; i++) {
+         dataTmp.push(+first + +res[i])
+      }
+
+      return dataTmp;
+
+   } else {
+      for (let i = 0; i &lt; samples; i++) {
+         dataTmp.push({
+            'y': +first + +res[i],
+            'x': (new Date(time.getTime() + (i * (1 / fd)) * 1000)).getTime()
+         })
+      }      
+
+      return dataTmp;
+   }
+}
+               
+            </code>
+         </pre>
+         </section>
+
+
+         <section>
+            <h2 class="title">
+               Experience
+            </h2>
+
+
+            <ul>
+               <li>Courses: Stepik - Web development for beginners: HTML and CSS.</li>
+               <li>
+                  Projects
+                  <ul>
+                     <li><a href="https://github.com/KarimIdrisov/f1statistic">Projects </a>- a site with statistics
+                        according to formula 1. The site is written on React JS and uses the F1 API to get data.</li>
+                     <li><a href="https://github.com/KarimIdrisov/cgp">CGP</a> - site for signal analysis. Frontend
+                        on
+                        React, backend on Node JS. </li>
+                  </ul>
+               </li>
+            </ul>
+         </section>
+
+         <section>
+            <h2 class="title">
+               Education
+            </h2>
+
+            <ul>
+               <li>2019–currently – Far Eastern Federal University. Specialty: “Applied Mathematics and Computer
+                  Science”</li>
+            </ul>
+         </section>
+
+         <section>
+            <h2 class="title">
+               Education
+            </h2>
+
+            <ul>
+               <li>English - Upper Intermediate (B2).</li>
+            </ul>
+         </section>
+
+         <footer class="footer">
+            <div class="footer__wrapper">
+
+               <section class="footer__contacts">
+
+                  <a href="https://github.com/KarimIdrisov">
+                     <h4>GitHub</h4>
+                  </a>
+                  &copy; 2021
+               </section>
+
+
+               <section class="footer__rsschool">
+                  <img width="60" height="30" src="pictures/logo.svg" alt="RSSschool logo">
+                  <a href="https://rs.school/js/">
+                     <h4>RSS school</h4>
+                  </a>
+               </section>
+            </div>
+
+         </footer>
+
+      </div>
+   </main>
+
+</body>
+
+</html>
