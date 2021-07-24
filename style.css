@@ -15,29 +15,31 @@
    margin: 0 auto;
 }
 
-.resume__subtitle {
-}
 .title {
-   border-bottom: 1px solid #eaecef;
+   margin-top: 24px;
+   margin-bottom: 16px;
    padding-bottom: 0.3em;
+
    font-size: 1.5em;
    font-weight: 600;
    line-height: 1.25;
-   margin-top: 24px;
-   margin-bottom: 16px;
+
+   border-bottom: 1px solid #eaecef;
 }
 
 .code pre {
    padding: 16px;
+
    overflow: auto;
    font-size: 85%;
    line-height: 1.45;
+
    background-color: #f6f8fa;
    border-radius: 3px;
 }
 
 .footer {
-   background-color: rgb(228, 228, 228);
+   background-color: #e8e8e8;
 }
 
 .footer h4 {
@@ -55,13 +57,7 @@
    align-items: center;
 }
 
-.footer__rsschool {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   flex-direction: column;
-}
-
+.footer__rsschool,
 .footer__contacts {
    display: flex;
    justify-content: center;
