@@ -1,0 +1,59 @@
+[33mcommit ec31e565a7e770601dea53ab1a89b6aaa8e1b996[m[33m ([m[1;36mHEAD -> [m[1;32mcv-html-css[m[33m, [m[1;31morigin/cv-html-css[m[33m)[m
+Author: Karim Idrisov <karim.idrisow2016@gmail.com>
+Date:   Fri Sep 17 09:57:56 2021 +1000
+
+    feat: add burger menu
+
+[33mcommit fc54188c5bbecd7196c27825b7439d76384a03b2[m
+Author: Karim Idrisov <karim.idrisow2016@gmail.com>
+Date:   Tue Jul 27 20:37:22 2021 +1000
+
+    fix: repeat of tel
+
+[33mcommit 8b749a91174c46680a6c45e42890d74157be6752[m
+Author: Karim Idrisov <karim.idrisow2016@gmail.com>
+Date:   Tue Jul 27 20:36:46 2021 +1000
+
+    fix: contacts like a list
+
+[33mcommit f2976aa5a87f0341d15ad94e10fa400d32e4b38d[m
+Author: Karim Idrisov <karim.idrisow2016@gmail.com>
+Date:   Sat Jul 24 14:56:27 2021 +1000
+
+    fix: make html and css more readable
+
+[33mcommit 6a087cf87fd9c47054aa6a07e10d13b56a2283be[m[33m ([m[1;31morigin/rsschool-cv-html[m[33m)[m
+Author: Karim Idrisov <karim.idrisow2016@gmail.com>
+Date:   Fri Jul 23 09:56:46 2021 +1000
+
+    feat: add resume on html, css
+
+[33mcommit 6848bae0f14938a51287ecd56a5cfea521039cd2[m
+Author: iki <56018755+KarimIdrisov@users.noreply.github.com>
+Date:   Fri Jul 16 12:31:45 2021 +1000
+
+    docs: delete from readme usefull info
+
+[33mcommit a88ffae73c59a27f5d9d906973f859919d99916f[m
+Author: iki <56018755+KarimIdrisov@users.noreply.github.com>
+Date:   Fri Jul 16 12:30:28 2021 +1000
+
+    docs: add link on profile
+
+[33mcommit d6782482e4b4a76c2b91ed92cac41ded03f7cdf8[m
+Author: iki <56018755+KarimIdrisov@users.noreply.github.com>
+Date:   Fri Jul 16 12:29:31 2021 +1000
+
+    feat: add cv.md
+
+[33mcommit 70848368c4ca059cd8dd2460c0c6b3af53c27eae[m
+Author: iki <56018755+KarimIdrisov@users.noreply.github.com>
+Date:   Fri Jul 16 12:29:11 2021 +1000
+
+    init: start git-markdown
+
+[33mcommit 1f2bf3ec8854581121a6c24a8399b176bc488137[m
+Author: iki <56018755+KarimIdrisov@users.noreply.github.com>
+Date:   Fri Jul 16 12:27:47 2021 +1000
+
+    Initial commit
